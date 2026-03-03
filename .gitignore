@@ -1,0 +1,22 @@
+# 虛擬環境
+venv/
+.venv/
+env/
+ENV/
+
+# Python 快取
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 套件散佈/打包相關
+dist/
+build/
+*.egg-info/
+
+# 作業系統暫存
+.DS_Store (Mac)
+Thumbs.db (Windows)
+
+# 環境變數設定檔 (若內含金鑰，務必排除)
+.env
